@@ -36,7 +36,32 @@ class Pipe():
 
         return conllu
 
-    def to_agdt_conllu(conllu, document_metadata=None):
+    def _extract_tokenized_cites(self):
+        """
+
+        Returns
+        -------
+        list (list) : a list of sentences, each with the passage part of a cts urn for a tokenized version
+
+        """
+        citesents = self.corpus.cite_sents(self.filename)
+        start = citesents[0][0][0]
+        tokcitesents = []
+        i=0
+        for cs in citesents:
+            newsent = []
+            for c in cs:
+                if c[0] == start:
+                    i+=1
+                else:
+                    i=1
+                    start = c[0]
+                newsent.append("{}.{}".format(c[0], i))
+            tokcitesents.append(newsent)
+        return tokcitesents
+
+
+    def to_agdt_conllu(self, conllu, document_id, speaker_list=None):
         """
         Get a rather poor CoNLL-U representation of a text or sentence;
         return an enriched version that contains text, sentence and token metadataself.
@@ -49,7 +74,8 @@ class Pipe():
         ---------
         conllu : str
             the content of a file or sentence as a string
-        document_metadata : dict
+        document_id : str
             key-pair values of metadata to be parsed
         """
-        pass
+        c = conllu.replace("# newdoc", "# newdoc id = {}".format(document_id))
+
