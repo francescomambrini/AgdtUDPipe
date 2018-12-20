@@ -12161,9 +12161,9 @@
 # sent_id = urn:cite2:uagdt:sentences.v1:AeschAg_754
 # speaker = Κλυταιμήστρα
 # text = ὃ δὲ λοιπόν , ἰόντ' ἐκ τῶνδε δόμων ἄλλην γενεὰν τρίβειν θανάτοις αὐθένταισι . [0]
-1	ὃ	ὅς	Pron	p-s---na-	Case=Accusative|Gender=Neuter|Number=Singular|Pos=Pron	11	ExD	15:SBJ	cite=urn:cts:greekLit:tlg0085.tlg005:1571
+1	ὃ	ὅς	Pron	p-s---na-	Case=Accusative|Gender=Neuter|Number=Singular|Pos=Pron	11	ExD	16:SBJ	cite=urn:cts:greekLit:tlg0085.tlg005:1571
 2	δὲ	δέ	Adverb	g--------	Pos=Adverb	11	AuxY	_	cite=urn:cts:greekLit:tlg0085.tlg005:1571
-3	λοιπόν	λοιπός	Adjective	a-s---na-	Case=Accusative|Gender=Neuter|Number=Singular|Pos=Adjective	11	ExD	15:PNOM	cite=urn:cts:greekLit:tlg0085.tlg005:1571
+3	λοιπόν	λοιπός	Adjective	a-s---na-	Case=Accusative|Gender=Neuter|Number=Singular|Pos=Adjective	11	ExD	16:PNOM	cite=urn:cts:greekLit:tlg0085.tlg005:1571
 4	,	,	Punctuation	u--------	Pos=Punctuation	11	ExD	15:AuxX	cite=urn:cts:greekLit:tlg0085.tlg005:1571
 5	ἰόντ'	εἶμι	Verb	v-sppama-	Case=Accusative|Gender=Masculine|Mood=Participle|Number=Singular|Pos=Verb|Tense=Present|Voice=Active	11	ADV	_	cite=urn:cts:greekLit:tlg0085.tlg005:1571
 6	ἐκ	ἐκ	Preposition	r--------	Pos=Preposition	5	AuxP	_	cite=urn:cts:greekLit:tlg0085.tlg005:1572
@@ -12171,11 +12171,12 @@
 8	δόμων	δόμος	Noun	n-p---mg-	Case=Genitive|Gender=Masculine|Number=Plural|Pos=Noun	6	OBJ	_	cite=urn:cts:greekLit:tlg0085.tlg005:1572
 9	ἄλλην	ἄλλος	Adjective	a-s---fa-	Case=Accusative|Gender=Feminine|Number=Singular|Pos=Adjective	10	ATR	_	cite=urn:cts:greekLit:tlg0085.tlg005:1572
 10	γενεὰν	γενεά	Noun	n-s---fa-	Case=Accusative|Gender=Feminine|Number=Singular|Pos=Noun	11	OBJ	_	cite=urn:cts:greekLit:tlg0085.tlg005:1572
-11	τρίβειν	τρίβω	Verb	v--pna---	Mood=Infinitive|Pos=Verb|Tense=Present|Voice=Active	11	ExD	15:OBJ	cite=urn:cts:greekLit:tlg0085.tlg005:1573
+11	τρίβειν	τρίβω	Verb	v--pna---	Mood=Infinitive|Pos=Verb|Tense=Present|Voice=Active	0	ExD	15:OBJ	cite=urn:cts:greekLit:tlg0085.tlg005:1573
 12	θανάτοις	θάνατος	Noun	n-p---md-	Case=Dative|Gender=Masculine|Number=Plural|Pos=Noun	11	ADV	_	cite=urn:cts:greekLit:tlg0085.tlg005:1573
 13	αὐθένταισι	αὐθέντης	Noun	n-p---md-	Case=Dative|Gender=Masculine|Number=Plural|Pos=Noun	12	ATR	_	cite=urn:cts:greekLit:tlg0085.tlg005:1573
 14	.	.	Punctuation	u--------	Pos=Punctuation	0	AuxK	_	cite=urn:cts:greekLit:tlg0085.tlg005:1573
-15	[0]	_	X	_	_	0	ADV	11:ADV	type=Artificial
+15	[0]	_	X	_	_	0	PRED	0:PRED	type=Artificial
+16	[1]	_	X	_	_	0	ADV	11:ADV	type=Artificial
 
 # sent_id = urn:cite2:uagdt:sentences.v1:AeschAg_755
 # speaker = Κλυταιμήστρα

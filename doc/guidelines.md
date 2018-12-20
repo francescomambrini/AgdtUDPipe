@@ -14,13 +14,16 @@ degree (comp. or sup.) must be marked in the appropriate position of the pos-tag
 
 ### Special words
 
-#### ὡς
-
 #### καί
 
 #### μᾶλλον and μάλιστα
 μᾶλλον and μάλιστα must be lemmatized under μᾶλλον and μάλιστα, and tagged as comparative
 and superlative respectively.
+
+#### μή
+Like Latin *ne*, μή can be either a negative adverb or a subordinating conjunction (typically, when it is joined with a *verbum timendi*). It must be tagged either as a conjunction or adverb.
+
+#### ὡς
 
 ## Syntax
 
