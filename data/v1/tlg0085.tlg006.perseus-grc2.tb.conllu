@@ -330,10 +330,10 @@
 # speaker = Χορός
 # text = φοβοῦμαι δ' ἔπος τόδ' ἐκβαλεῖν .
 1	φοβοῦμαι	φοβέω	Verb	v1spie---	Mood=Indicative|Number=Singular|Person=1St|Pos=Verb|Tense=Present|Voice=Mediopassive	0	PRED	_	cite=urn:cts:greekLit:tlg0085.tlg006:46-47
-2	δ'	δέ	Adverb	g--------	Pos=Adverb		AuxY	_	cite=urn:cts:greekLit:tlg0085.tlg006:47
-3	ἔπος	ἔπος	Noun	n-s---na-	Case=Accusative|Gender=Neuter|Number=Singular|Pos=Noun	6	OBJ	_	cite=urn:cts:greekLit:tlg0085.tlg006:47
-4	τόδ'	ὅδε	Pron	p-s---na-	Case=Accusative|Gender=Neuter|Number=Singular|Pos=Pron		ATR	_	cite=urn:cts:greekLit:tlg0085.tlg006:47
-5	ἐκβαλεῖν	ἐκβάλλω	Verb	v--fna---	Mood=Infinitive|Pos=Verb|Tense=Future|Voice=Active	2	OBJ	_	cite=urn:cts:greekLit:tlg0085.tlg006:47
+2	δ'	δέ	Adverb	g--------	Pos=Adverb	1	AuxY	_	cite=urn:cts:greekLit:tlg0085.tlg006:47
+3	ἔπος	ἔπος	Noun	n-s---na-	Case=Accusative|Gender=Neuter|Number=Singular|Pos=Noun	5	OBJ	_	cite=urn:cts:greekLit:tlg0085.tlg006:47
+4	τόδ'	ὅδε	Pron	p-s---na-	Case=Accusative|Gender=Neuter|Number=Singular|Pos=Pron	3	ATR	_	cite=urn:cts:greekLit:tlg0085.tlg006:47
+5	ἐκβαλεῖν	ἐκβάλλω	Verb	v--fna---	Mood=Infinitive|Pos=Verb|Tense=Future|Voice=Active	1	OBJ	_	cite=urn:cts:greekLit:tlg0085.tlg006:47
 6	.	.	Punctuation	u--------	Pos=Punctuation	0	AuxK	_	cite=urn:cts:greekLit:tlg0085.tlg006:47
 
 # sent_id = urn:cite2:uagdt:sentences.v1:AeschCho_23
