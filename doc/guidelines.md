@@ -8,6 +8,56 @@ or where some corrections had to be made to the original annotation.
 
 ## Morphological analysis and Lemmatization
 
+### Pronouns
+
+In contrast to other POS (like adjectives or nouns), pronouns belong to a close class, but it is not always easy to to assign the different lemmata to this or that category. Bear in mind that POS does not register syntactic annotation, thus proper pronouns (like ὅδε) used adjectively are *not* annotated as adjectives.
+
+Thus, the list of pronouns varies considerably, depending on whether one considers syntactic, semantic or morphological (i.e. based on flexion) aspects to make the distinction.
+
+Our list and classification is based on that of Kuhner and Blass (pp. 579-ss), with some minor modifications (marked with *):
+
+1. personal pronouns: ἐγώ, σύ, ἡμεῖς, ὑμεῖς, σφεῖς with various peculiar forms for the other persons and cases (ἕ, νῶϊ, οὗ etc.)
+
+2. possessive pronouns: ἐμός, σός, ἡμέτερος, ὑμέτερος, (ἑ)ὅς, νωΐτερος, σφέτερος
+
+3. reflexive pron.: ἐμαυτοῦ, σαυτοῦ, ἑαυτοῦ
+
+4. reciprocal pron.: ἀλλήλων
+
+5. demonstrative pronouns:
+   * ὁ, ὅδε
+   * αὐτός
+   * οὗτος, ἐκεῖνος
+   * ἄλλος
+   * τόσος, τοσόσδε, τοσοῦτος
+   * τοῖος, τοιόσδε, τοιοῦτος
+   * τήλικος, τηλικόσδε, τηλικοῦτος
+
+6. interrogative pronouns:
+   * τίς
+   * πότερος*
+   * πόσος
+   * ποῖος
+   * πηλίκος
+
+7. relative-interrogative pron:
+   * ὅς
+   * ὁποῖος
+   * ὅσος, ὁπόσος
+   * ὁπότερος (vedi K-B par 157.8)
+   * ἡλίκος
+   * ὁπηλίκος
+
+8. indefinite and interrogative pronouns:
+   * τις
+   * ὅστις
+   * δεῖνα
+   * ἑκάτερος, ἕκαστος (vedi K-B par 157.8)
+   * ποσός
+   * ποιός
+
+Note that K-B correctly identifies a class of pronominal adverbs (together with pronominal adjectives and nouns); however they also rightly state that these pronouns behave more as adverbs and we will annotate them as such.
+
 ### Irregular comparatives and superlatives
 Lemmatize irregular (i.e. polytematic) comparatives and superlatives under themselves; the proper
 degree (comp. or sup.) must be marked in the appropriate position of the pos-tag.
