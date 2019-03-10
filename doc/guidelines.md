@@ -58,6 +58,12 @@ Our list and classification is based on that of Kuhner and Blass (pp. 579-ss), w
 
 Note that K-B correctly identifies a class of pronominal adverbs (together with pronominal adjectives and nouns); however they also rightly state that these pronouns behave more as adverbs and we will annotate them as such.
 
+Note also that other ambiguous words (like πᾶς or οὐδείς) are not tagged as pronounσ, but as adjectives. On οὐδείς in particular see under numerals, and note that οὔτις (which is composed with the pronoun τις) is in fact tagged as `p`.
+
+### Numerals
+
+Numerals are tagged as adjectives. That goes also for compounds of εἷς, μία, ἕν, like οὐδείς or μηδείς.
+
 ### Irregular comparatives and superlatives
 Lemmatize irregular (i.e. polytematic) comparatives and superlatives under themselves; the proper
 degree (comp. or sup.) must be marked in the appropriate position of the pos-tag.
@@ -136,7 +142,7 @@ Although the semantic weight is peculiarly distributed between main verb and par
 the usual syntactic structure reserved to verb + nominative participles. In other word, the verbs φαίνω, λανθάνω, τυγχάνω etc. is annotated according to its syntactic function (e.g. `PRED`, `OBJ`, `ATR` etc), while the participle is regularly tagged as `ADV`.
 
 #### Predicative participles in accusative (or indirect cases)
-The participle is tagged as `OCOMP`: see above under `"Raised" objects".
+The participle is tagged as `OCOMP`: see above under `"Raised" objects`.
 
 #### ἔχω + adverb
 
@@ -145,3 +151,22 @@ When adverbs are joined with the verb ἔχειν (with the meaning: "being in a
 #### Genitives with exclamation
 
 It's a genitive of cause ("alas for..."), thus `ADV` attached to the exclamation. See e.g. *Aj* 366: ὤμοι γέλωτος (`ExD --> ADV`).
+
+#### γάρ
+
+γάρ is not a conjuction, and therefore it must **not** be annotated as `AuxC`. The particle is the typical sentence adverbial, and therefore is always annotated as `AuxY`. The fact thatin English it is often translated with the conjunction "for" is utterly irrelevant.
+
+Occasionally, γάρ occurs in the middle of a sentence within a parenthetical expression. In that case, use the appropriate rules for annotation of parenthetical expressions (see below).
+
+#### Parenthetical expressions
+
+We distinguish between one-word parenthetical expressions like οἶδα ("- I know -") and more complex parenthical sentences, where there is a verb govering a whole group of words or expressions.
+
+The formers, can be adjectives used in "apposition to the whole sentence" (this is how they are typically referred to in commentaries, and they are not uncommon in tragedy); they are annotated as `ATR` and depend from the root of the sentence (or the clause they qualify). Most frequently, one-word parenthetical expressions are first-person verbs like οἶδα that are used to characterize the enunciative stand of the speaker. As such, they are a typical instances of `AuxY`.
+
+More complex parenthetical are generally printed within parentheses and govern more complex syntactical constructions. In this case, the head of the sentence (typically, the verb) depends on the word the parenthesis is attached to. This can be the whole root of the sentence, if the parenthetical sentence adds information or comments on the whole sentence; or to the specific word of the sentence the parenthesis makes reference to. The head of the parenthetical sentence is tagged as `PRED` with the special `_PA` appendix derived from the [PDT guidelines](https://ufal.mff.cuni.cz/pdt2.0/doc/manuals/en/a-layer/html/ch03s05.html).
+
+Note that nominal clauses used parenthetically such as νόμος γάρ or θέμις γάρ ("as it is the law / customary"), which are frequent in Homer, are in fact cases of more syntactically complex parenthesis, to be annotated with the `PRED_PA`. As the clauses are nominal, they should be annotated accordingly: the `PRED_PA` element is a reconstructed node.
+
+
+
