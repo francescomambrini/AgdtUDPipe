@@ -2,7 +2,8 @@
 
 ### To check:
 
-* pronoun list
+* ~~pronoun list~~
+* ~~bad conversion of pos `i`~~
 * pos of οὐδείς, μηδείς, οὔτις etc...
     * mhde/n and ou)de/n auxz ==> ADV (neg)
 * lemtz of ἄν, ἐάν, ἦν (conj. with subj)
