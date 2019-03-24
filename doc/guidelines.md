@@ -168,5 +168,16 @@ More complex parenthetical are generally printed within parentheses and govern m
 
 Note that nominal clauses used parenthetically such as νόμος γάρ or θέμις γάρ ("as it is the law / customary"), which are frequent in Homer, are in fact cases of more syntactically complex parenthesis, to be annotated with the `PRED_PA`. As the clauses are nominal, they should be annotated accordingly: the `PRED_PA` element is a reconstructed node.
 
+#### "Resumed" objects
 
+Sometimes, especially in colloquial style or impassioned speech, accusatives at the beginning of a sentence are "taken over", "picked up" or resumed by a new object towards the end of the utterance, or closer to the verb. Although this construction is very similar to an anacoluthon, the first direct object is not really left suspended or dangling without a construction, but is rather taken over by a different, yet conceptually related word.
+
+E.g.:
+
+* Soph. *Aj* 1062-3: ὧν εἵνεκ᾽ **αὐτὸν** οὔτις ἔστ᾽ ἀνὴρ σθένων / τοσοῦτον ὥστε **σῶμα** τυμβεῦσαι τάφῳ (lit.: "for these resons, *him*, there is no man strong enough to bury his corpse").
+* Soph. *Aj* 1147-9: οὕτω δὲ **καὶ σὲ καὶ τὸ σὸν λάβρον στόμα** / σμικροῦ νέφους τάχ᾽ ἄν τις ἐκπνεύσας μέγας / χειμὼν κατασβέσειε **τὴν πολλὴν βοήν**. (lit: "and so you and your boisterous mouth a big storm rising from a small cloud shall perhaps quench your loud claim", with "loud claim" picking up "you and your boisterous mouth").
+
+(note that both sentences are uttered by Menelaos in a very intense exchange over Teucer's right to bury Ajax)
+
+**Temporary solution**: the first object is tagged as `AuxY`; note that in the second sentence, as the first object is filled by a coordinating clause, we use the very rare tag `AuxY_CO`.
 
